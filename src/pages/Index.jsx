@@ -39,9 +39,6 @@ const Index = () => {
       <VStack spacing={10} py={10}>
         <VStack spacing={3}>
           <Heading as="h1">Dr. Bill Young</Heading>
-          <Text fontSize="xl" color="gray.500">
-            Physician, Researcher, and Blogger
-          </Text>
         </VStack>
 
         <Divider />
