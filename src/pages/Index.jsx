@@ -47,13 +47,6 @@ const Index = () => {
         </VStack>
         // ...
         <Divider />
-        <VStack spacing={8} align="stretch">
-          <Heading as="h2" size="lg" display="flex" alignItems="center">
-            <FaUserMd />
-            <Text ml={2}>About Me</Text>
-          </Heading>
-          <Text>I am Dr. Bill Young, a passionate physician specialized in internal medicine with over 20 years of experience. I am also an active researcher in the field of oncology and a speaker at various medical conferences around the world. In my spare time, I love to write about medical advancements, health tips, and my experiences in the field.</Text>
-        </VStack>
         <Divider />
         <VStack spacing={8} align="stretch">
           <Heading as="h2" size="lg" display="flex" alignItems="center">
