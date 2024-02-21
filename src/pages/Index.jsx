@@ -44,7 +44,7 @@ const Index = () => {
           <Button as={Link} to="/about" colorScheme="blue" leftIcon={<FaUserMd />} mr={4}>
             About Me
           </Button>
-          <Button as={Link} to="/blog" colorScheme="blue" leftIcon={<FaBlog />}>
+          <Button as={Link} to="/blog" colorScheme="blue" leftIcon={<FaBlog />} mr={4}>
             Blog
           </Button>
         </VStack>
