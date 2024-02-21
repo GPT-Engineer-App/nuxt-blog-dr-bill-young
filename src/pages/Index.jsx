@@ -38,7 +38,7 @@ const Index = () => {
   return (
     <Container maxW="container.xl">
       <VStack spacing={10} py={10}>
-        import {Link} from "react-router-dom"; // ...
+        // Stray import removed
         <VStack spacing={3}>
           <Heading as="h1">Dr. Bill Young</Heading>
           <Button as={Link} to="/about" colorScheme="blue" leftIcon={<FaUserMd />}>
