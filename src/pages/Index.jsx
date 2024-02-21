@@ -41,8 +41,11 @@ const Index = () => {
         // Stray import removed
         <VStack spacing={3}>
           <Heading as="h1">Dr. Bill Young</Heading>
-          <Button as={Link} to="/about" colorScheme="blue" leftIcon={<FaUserMd />}>
+          <Button as={Link} to="/about" colorScheme="blue" leftIcon={<FaUserMd />} mr={4}>
             About Me
+          </Button>
+          <Button as={Link} to="/blog" colorScheme="blue" leftIcon={<FaBlog />}>
+            Blog
           </Button>
         </VStack>
         // ...
