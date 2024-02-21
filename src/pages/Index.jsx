@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Box, Container, Heading, Text, VStack, Image, SimpleGrid, Button, Divider } from "@chakra-ui/react";
 import { FaUserMd, FaBlog, FaPlus } from "react-icons/fa";
 
@@ -37,12 +38,15 @@ const Index = () => {
   return (
     <Container maxW="container.xl">
       <VStack spacing={10} py={10}>
+        import {Link} from "react-router-dom"; // ...
         <VStack spacing={3}>
           <Heading as="h1">Dr. Bill Young</Heading>
+          <Button as={Link} to="/about" colorScheme="blue" leftIcon={<FaUserMd />}>
+            About Me
+          </Button>
         </VStack>
-
+        // ...
         <Divider />
-
         <VStack spacing={8} align="stretch">
           <Heading as="h2" size="lg" display="flex" alignItems="center">
             <FaUserMd />
@@ -50,9 +54,7 @@ const Index = () => {
           </Heading>
           <Text>I am Dr. Bill Young, a passionate physician specialized in internal medicine with over 20 years of experience. I am also an active researcher in the field of oncology and a speaker at various medical conferences around the world. In my spare time, I love to write about medical advancements, health tips, and my experiences in the field.</Text>
         </VStack>
-
         <Divider />
-
         <VStack spacing={8} align="stretch">
           <Heading as="h2" size="lg" display="flex" alignItems="center">
             <FaBlog />
