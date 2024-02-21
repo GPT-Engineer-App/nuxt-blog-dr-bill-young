@@ -13,9 +13,6 @@ function NavBar() {
           <Link as={RouterLink} to="/about" color="white" mr={4}>
             About
           </Link>
-          <Link as={RouterLink} to="/blog" color="white" mr={4}>
-            Blog
-          </Link>
         </Box>
       </Flex>
     </Box>
