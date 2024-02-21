@@ -38,7 +38,6 @@ const Index = () => {
     <Container maxW="container.xl">
       <VStack spacing={10} py={10}>
         <VStack spacing={3}>
-          <Image borderRadius="full" boxSize="150px" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxEci4lMjBCaWxsJTIwWW91bmclMjBwb3J0cmFpdHxlbnwwfHx8fDE3MDg1MjQxNzV8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="Dr. Bill Young" />
           <Heading as="h1">Dr. Bill Young</Heading>
           <Text fontSize="xl" color="gray.500">
             Physician, Researcher, and Blogger
